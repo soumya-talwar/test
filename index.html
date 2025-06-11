@@ -1,13 +1,10 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/dist/mindar-image.prod.js"></script>
 		<script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
-		<!-- <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"></script> -->
-		<script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
 	</head>
 	<body>
-		<h1>testing 360</h1>
 		<a-scene
 			mindar-image="imageTargetSrc: ./targets.mind;"
 			embedded
@@ -16,16 +13,301 @@
 			vr-mode-ui="enabled: false"
 			device-orientation-permission-ui="enabled: true"
 			loading-screen="enabled: false">
+			<a-assets>
+				<img id="frame_1" src="./sequence/frame1.png" />
+				<img id="frame_2" src="./sequence/frame2.png" />
+				<img id="frame_3" src="./sequence/frame3.png" />
+				<img id="frame_4" src="./sequence/frame4.png" />
+				<img id="frame_5" src="./sequence/frame5.png" />
+				<img id="frame_6" src="./sequence/frame6.png" />
+				<img id="frame_7" src="./sequence/frame7.png" />
+				<img id="frame_8" src="./sequence/frame8.png" />
+				<img id="frame_9" src="./sequence/frame9.png" />
+				<img id="frame_10" src="./sequence/frame10.png" />
+				<img id="frame_11" src="./sequence/frame11.png" />
+				<img id="frame_12" src="./sequence/frame12.png" />
+				<img id="frame_13" src="./sequence/frame13.png" />
+				<img id="frame_14" src="./sequence/frame14.png" />
+				<img id="frame_15" src="./sequence/frame15.png" />
+				<img id="frame_16" src="./sequence/frame16.png" />
+				<img id="frame_17" src="./sequence/frame17.png" />
+				<img id="frame_18" src="./sequence/frame18.png" />
+				<img id="frame_19" src="./sequence/frame19.png" />
+				<img id="frame_20" src="./sequence/frame20.png" />
+				<img id="frame_21" src="./sequence/frame21.png" />
+				<img id="frame_22" src="./sequence/frame22.png" />
+				<img id="frame_23" src="./sequence/frame23.png" />
+				<img id="frame_24" src="./sequence/frame24.png" />
+				<img id="frame_25" src="./sequence/frame25.png" />
+				<img id="frame_26" src="./sequence/frame26.png" />
+				<img id="frame_27" src="./sequence/frame27.png" />
+				<img id="frame_28" src="./sequence/frame28.png" />
+				<img id="frame_29" src="./sequence/frame29.png" />
+				<img id="frame_30" src="./sequence/frame30.png" />
+				<img id="frame_31" src="./sequence/frame31.png" />
+				<img id="frame_32" src="./sequence/frame32.png" />
+				<img id="frame_33" src="./sequence/frame33.png" />
+				<img id="frame_34" src="./sequence/frame34.png" />
+				<img id="frame_35" src="./sequence/frame35.png" />
+				<img id="frame_36" src="./sequence/frame36.png" />
+				<img id="frame_37" src="./sequence/frame37.png" />
+				<img id="frame_38" src="./sequence/frame38.png" />
+				<img id="frame_39" src="./sequence/frame39.png" />
+				<img id="frame_40" src="./sequence/frame40.png" />
+				<img id="frame_41" src="./sequence/frame41.png" />
+				<img id="frame_42" src="./sequence/frame42.png" />
+				<img id="frame_43" src="./sequence/frame43.png" />
+				<img id="frame_44" src="./sequence/frame44.png" />
+				<img id="frame_45" src="./sequence/frame45.png" />
+				<img id="frame_46" src="./sequence/frame46.png" />
+				<img id="frame_47" src="./sequence/frame47.png" />
+				<img id="frame_48" src="./sequence/frame48.png" />
+				<img id="frame_49" src="./sequence/frame49.png" />
+				<img id="frame_50" src="./sequence/frame50.png" />
+				<img id="frame_51" src="./sequence/frame51.png" />
+				<img id="frame_52" src="./sequence/frame52.png" />
+				<img id="frame_53" src="./sequence/frame53.png" />
+				<img id="frame_54" src="./sequence/frame54.png" />
+				<img id="frame_55" src="./sequence/frame55.png" />
+				<img id="frame_56" src="./sequence/frame56.png" />
+				<img id="frame_57" src="./sequence/frame57.png" />
+				<img id="frame_58" src="./sequence/frame58.png" />
+				<img id="frame_59" src="./sequence/frame59.png" />
+				<img id="frame_60" src="./sequence/frame60.png" />
+				<img id="frame_61" src="./sequence/frame61.png" />
+				<img id="frame_62" src="./sequence/frame62.png" />
+				<img id="frame_63" src="./sequence/frame63.png" />
+				<img id="frame_64" src="./sequence/frame64.png" />
+				<img id="frame_65" src="./sequence/frame65.png" />
+				<img id="frame_66" src="./sequence/frame66.png" />
+				<img id="frame_67" src="./sequence/frame67.png" />
+				<img id="frame_68" src="./sequence/frame68.png" />
+				<img id="frame_69" src="./sequence/frame69.png" />
+				<img id="frame_70" src="./sequence/frame70.png" />
+				<img id="frame_71" src="./sequence/frame71.png" />
+				<img id="frame_72" src="./sequence/frame72.png" />
+				<img id="frame_73" src="./sequence/frame73.png" />
+				<img id="frame_74" src="./sequence/frame74.png" />
+				<img id="frame_75" src="./sequence/frame75.png" />
+				<img id="frame_76" src="./sequence/frame76.png" />
+				<img id="frame_77" src="./sequence/frame77.png" />
+				<img id="frame_78" src="./sequence/frame78.png" />
+				<img id="frame_79" src="./sequence/frame79.png" />
+				<img id="frame_80" src="./sequence/frame80.png" />
+				<img id="frame_81" src="./sequence/frame81.png" />
+				<img id="frame_82" src="./sequence/frame82.png" />
+				<img id="frame_83" src="./sequence/frame83.png" />
+				<img id="frame_84" src="./sequence/frame84.png" />
+				<img id="frame_85" src="./sequence/frame85.png" />
+				<img id="frame_86" src="./sequence/frame86.png" />
+				<img id="frame_87" src="./sequence/frame87.png" />
+				<img id="frame_88" src="./sequence/frame88.png" />
+				<img id="frame_89" src="./sequence/frame89.png" />
+				<img id="frame_90" src="./sequence/frame90.png" />
+				<img id="frame_91" src="./sequence/frame91.png" />
+				<img id="frame_92" src="./sequence/frame92.png" />
+				<img id="frame_93" src="./sequence/frame93.png" />
+				<img id="frame_94" src="./sequence/frame94.png" />
+				<img id="frame_95" src="./sequence/frame95.png" />
+				<img id="frame_96" src="./sequence/frame96.png" />
+				<img id="frame_97" src="./sequence/frame97.png" />
+				<img id="frame_98" src="./sequence/frame98.png" />
+				<img id="frame_99" src="./sequence/frame99.png" />
+				<img id="frame_100" src="./sequence/frame100.png" />
+				<img id="frame_101" src="./sequence/frame101.png" />
+				<img id="frame_102" src="./sequence/frame102.png" />
+				<img id="frame_103" src="./sequence/frame103.png" />
+				<img id="frame_104" src="./sequence/frame104.png" />
+				<img id="frame_105" src="./sequence/frame105.png" />
+				<img id="frame_106" src="./sequence/frame106.png" />
+				<img id="frame_107" src="./sequence/frame107.png" />
+				<img id="frame_108" src="./sequence/frame108.png" />
+				<img id="frame_109" src="./sequence/frame109.png" />
+				<img id="frame_110" src="./sequence/frame110.png" />
+				<img id="frame_111" src="./sequence/frame111.png" />
+				<img id="frame_112" src="./sequence/frame112.png" />
+				<img id="frame_113" src="./sequence/frame113.png" />
+				<img id="frame_114" src="./sequence/frame114.png" />
+				<img id="frame_115" src="./sequence/frame115.png" />
+				<img id="frame_116" src="./sequence/frame116.png" />
+				<img id="frame_117" src="./sequence/frame117.png" />
+				<img id="frame_118" src="./sequence/frame118.png" />
+				<img id="frame_119" src="./sequence/frame119.png" />
+				<img id="frame_120" src="./sequence/frame120.png" />
+				<img id="frame_121" src="./sequence/frame121.png" />
+				<img id="frame_122" src="./sequence/frame122.png" />
+				<img id="frame_123" src="./sequence/frame123.png" />
+				<img id="frame_124" src="./sequence/frame124.png" />
+				<img id="frame_125" src="./sequence/frame125.png" />
+				<img id="frame_126" src="./sequence/frame126.png" />
+				<img id="frame_127" src="./sequence/frame127.png" />
+				<img id="frame_128" src="./sequence/frame128.png" />
+				<img id="frame_129" src="./sequence/frame129.png" />
+				<img id="frame_130" src="./sequence/frame130.png" />
+				<img id="frame_131" src="./sequence/frame131.png" />
+				<img id="frame_132" src="./sequence/frame132.png" />
+				<img id="frame_133" src="./sequence/frame133.png" />
+				<img id="frame_134" src="./sequence/frame134.png" />
+				<img id="frame_135" src="./sequence/frame135.png" />
+				<img id="frame_136" src="./sequence/frame136.png" />
+				<img id="frame_137" src="./sequence/frame137.png" />
+				<img id="frame_138" src="./sequence/frame138.png" />
+				<img id="frame_139" src="./sequence/frame139.png" />
+				<img id="frame_140" src="./sequence/frame140.png" />
+				<img id="frame_141" src="./sequence/frame141.png" />
+				<img id="frame_142" src="./sequence/frame142.png" />
+				<img id="frame_143" src="./sequence/frame143.png" />
+				<img id="frame_144" src="./sequence/frame144.png" />
+				<img id="frame_145" src="./sequence/frame145.png" />
+				<img id="frame_146" src="./sequence/frame146.png" />
+				<img id="frame_147" src="./sequence/frame147.png" />
+				<img id="frame_148" src="./sequence/frame148.png" />
+				<img id="frame_149" src="./sequence/frame149.png" />
+				<img id="frame_150" src="./sequence/frame150.png" />
+				<img id="frame_151" src="./sequence/frame151.png" />
+				<img id="frame_152" src="./sequence/frame152.png" />
+				<img id="frame_153" src="./sequence/frame153.png" />
+				<img id="frame_154" src="./sequence/frame154.png" />
+				<img id="frame_155" src="./sequence/frame155.png" />
+				<img id="frame_156" src="./sequence/frame156.png" />
+				<img id="frame_157" src="./sequence/frame157.png" />
+				<img id="frame_158" src="./sequence/frame158.png" />
+				<img id="frame_159" src="./sequence/frame159.png" />
+				<img id="frame_160" src="./sequence/frame160.png" />
+				<img id="frame_161" src="./sequence/frame161.png" />
+				<img id="frame_162" src="./sequence/frame162.png" />
+				<img id="frame_163" src="./sequence/frame163.png" />
+				<img id="frame_164" src="./sequence/frame164.png" />
+				<img id="frame_165" src="./sequence/frame165.png" />
+				<img id="frame_166" src="./sequence/frame166.png" />
+				<img id="frame_167" src="./sequence/frame167.png" />
+				<img id="frame_168" src="./sequence/frame168.png" />
+				<img id="frame_169" src="./sequence/frame169.png" />
+				<img id="frame_170" src="./sequence/frame170.png" />
+				<img id="frame_171" src="./sequence/frame171.png" />
+				<img id="frame_172" src="./sequence/frame172.png" />
+				<img id="frame_173" src="./sequence/frame173.png" />
+				<img id="frame_174" src="./sequence/frame174.png" />
+				<img id="frame_175" src="./sequence/frame175.png" />
+				<img id="frame_176" src="./sequence/frame176.png" />
+				<img id="frame_177" src="./sequence/frame177.png" />
+				<img id="frame_178" src="./sequence/frame178.png" />
+				<img id="frame_179" src="./sequence/frame179.png" />
+				<img id="frame_180" src="./sequence/frame180.png" />
+				<img id="frame_181" src="./sequence/frame181.png" />
+				<img id="frame_182" src="./sequence/frame182.png" />
+				<img id="frame_183" src="./sequence/frame183.png" />
+				<img id="frame_184" src="./sequence/frame184.png" />
+				<img id="frame_185" src="./sequence/frame185.png" />
+				<img id="frame_186" src="./sequence/frame186.png" />
+				<img id="frame_187" src="./sequence/frame187.png" />
+				<img id="frame_188" src="./sequence/frame188.png" />
+				<img id="frame_189" src="./sequence/frame189.png" />
+				<img id="frame_190" src="./sequence/frame190.png" />
+				<img id="frame_191" src="./sequence/frame191.png" />
+				<img id="frame_192" src="./sequence/frame192.png" />
+				<img id="frame_193" src="./sequence/frame193.png" />
+				<img id="frame_194" src="./sequence/frame194.png" />
+				<img id="frame_195" src="./sequence/frame195.png" />
+				<img id="frame_196" src="./sequence/frame196.png" />
+				<img id="frame_197" src="./sequence/frame197.png" />
+				<img id="frame_198" src="./sequence/frame198.png" />
+				<img id="frame_199" src="./sequence/frame199.png" />
+				<img id="frame_200" src="./sequence/frame200.png" />
+				<img id="frame_201" src="./sequence/frame201.png" />
+				<img id="frame_202" src="./sequence/frame202.png" />
+				<img id="frame_203" src="./sequence/frame203.png" />
+				<img id="frame_204" src="./sequence/frame204.png" />
+				<img id="frame_205" src="./sequence/frame205.png" />
+				<img id="frame_206" src="./sequence/frame206.png" />
+				<img id="frame_207" src="./sequence/frame207.png" />
+				<img id="frame_208" src="./sequence/frame208.png" />
+				<img id="frame_209" src="./sequence/frame209.png" />
+				<img id="frame_210" src="./sequence/frame210.png" />
+			</a-assets>
 			<a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
-			<a-entity mindar-image-target="targetIndex: 0">
+
+			<!-- <a-entity id="target" mindar-image-target="targetIndex: 0">
 				<a-plane
-					color="blue"
-					opacity="0.5"
-					position="0 0 0"
-					height="0.552"
+					id="anim-plane"
 					width="1"
-					rotation="0 0 0"></a-plane>
+					height="1"
+					position="0 0 0"
+					rotation="0 0 0"
+					material="shader: flat; transparent: true; src: #frame_1"></a-plane>
+			</a-entity> -->
+
+			<a-entity id="target" mindar-image-target="targetIndex: 0" smooth-follow>
+				<a-plane
+					id="anim-plane"
+					width="1"
+					height="1"
+					position="0 0 0"
+					rotation="0 0 0"
+					material="shader: flat; transparent: true; src: #frame_1"></a-plane>
 			</a-entity>
 		</a-scene>
+
+		<script>
+			AFRAME.registerComponent("smooth-follow", {
+				schema: {
+					lerpFactor: { type: "number", default: 0.2 }, // 0 = frozen, 1 = instant snap
+				},
+				init: function () {
+					this.targetPosition = new THREE.Vector3();
+					this.targetQuaternion = new THREE.Quaternion();
+				},
+				tick: function () {
+					const el = this.el;
+					const object3D = el.object3D;
+
+					// If MindAR hasn't updated pose, skip
+					if (!object3D.visible) return;
+
+					// Get the actual world position/rotation from MindAR
+					el.object3D.getWorldPosition(this.targetPosition);
+					el.object3D.getWorldQuaternion(this.targetQuaternion);
+
+					// Smooth current position and rotation
+					object3D.position.lerp(this.targetPosition, this.data.lerpFactor);
+					object3D.quaternion.slerp(
+						this.targetQuaternion,
+						this.data.lerpFactor
+					);
+				},
+			});
+
+			const totalFrames = 210;
+			const frameRate = 30;
+			const interval = 1000 / frameRate;
+
+			let frame = 1;
+			let animationInterval = null;
+
+			const plane = document.querySelector("#anim-plane");
+			const target = document.querySelector("#target");
+
+			const updateFrame = () => {
+				frame++;
+				if (frame > totalFrames) {
+					clearInterval(animationInterval);
+					return;
+				}
+				const srcId = `#frame_${frame}`;
+				plane.setAttribute("material", "src", srcId);
+			};
+
+			target.addEventListener("targetFound", () => {
+				frame = 1;
+				plane.setAttribute("material", "src", "#frame_1");
+				animationInterval = setInterval(updateFrame, interval);
+			});
+
+			target.addEventListener("targetLost", () => {
+				clearInterval(animationInterval);
+				frame = 1;
+				plane.setAttribute("material", "src", "#frame_1");
+			});
+		</script>
 	</body>
 </html>
